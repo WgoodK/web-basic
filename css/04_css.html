@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    /* 모든 태그에 적용 */
+    div {
+      border: 1px solid red;
+    }
+
+    /* id 셀렉터 (앞에 # 붙이면 됨) */
+    #div1{
+      background-color: aqua;
+    }
+
+    #div2{
+      background-color: yellow;
+    }
+    /* class 셀렉터 (앞에 . 찍으면 됨) */
+    .group1{
+      background-color: orange;
+    }
+
+    .text-color-white{
+      text-indent: 60px;
+      text-transform: capitalize;
+      text-decoration: underline;
+      text-align: start;
+      color: white;
+      font-size: 50px;
+    }
+  </style>
+
+</head>
+<body>
+  <div class="group1 text-color-white">Hello</div>
+  <span class="group1">World</span>
+
+  <div id="div1">Hello</div>  
+  <div id="div2">World</div>  
+</body>
+</html>
